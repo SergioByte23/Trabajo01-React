@@ -16,11 +16,11 @@ function App() {
   const objStyle ={
     backgroundImage: `url('../fondo${bgApp}.jpg')`
   }
-
+// Galleta de la Fortuna
   return (
     <>
       <div style={objStyle} className='app'>
-        <h1 className='app__title'>Galleta de la Fortuna</h1> 
+        <h1 className='app__title'>Mayra tu galleta de la Fortuna</h1> 
         {/* esta es una prop */}
         <article className='app__card'>
         <Phrase phraseRandom={phraseRandom}  
