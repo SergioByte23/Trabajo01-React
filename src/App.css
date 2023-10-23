@@ -59,7 +59,7 @@
         top:10%;
     }
     .app__card{
-        max-width:90vw;
+        max-width:70vw;
     
     }
 }
@@ -72,8 +72,40 @@
     .app__card{
         max-width:90vw;
         background-image: url("../rectangle1.svg") ;
-        background-size:90vw 30vh;
+        background-size:90vw 28vh;
     
+    }
+    
+}
+
+@media (max-width:380px) {
+    
+    .app__title{
+        top:5%;
+        font-size: 38px;
+    }
+    .app__card{
+        max-width:90vw;
+        background-image: url("../rectangle1.svg") ;
+        background-size:90vw 35vh;
+    
+    }
+    
+}
+
+@media (max-width:285px) {
+    
+    .app__title{
+        top:5%;
+        font-size: 40px;
+    }
+    .app__card{
+        max-width:90vw;
+        height: 40vh;
+        
+    }
+    .app__phrase{
+        font-size: 0.7rem;
     }
     
 }
