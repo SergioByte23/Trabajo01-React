@@ -20,15 +20,19 @@ function App() {
   return (
     <>
       <div style={objStyle} className='app'>
-        <h1 className='app__title'>Galleta de la Fortuna de Cynthia</h1> 
+        <h1 className='app__title'>GALLETAS DE LA FORTUNA</h1> 
         {/* esta es una prop */}
         <article className='app__card'>
         <Phrase phraseRandom={phraseRandom}  
         />
         {/* mando otra prop para que cuando presiones click tmb se le aplique */}
-         <ButtonPhrase setphraseRandom={setphraseRandom} setBgApp={setBgApp}/>
+         {/* <ButtonPhrase setphraseRandom={setphraseRandom} setBgApp={setBgApp}/> */}
          </article>
+         <div>
+        <ButtonPhrase setphraseRandom={setphraseRandom} setBgApp={setBgApp}/>
+        </div>
       </div>
+      
       
     </>
   )
